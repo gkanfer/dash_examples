@@ -1,0 +1,50 @@
+.col {
+margin-top: 9px;
+}
+h1.header {
+font-family:var(--bs-body-font-family)
+}
+
+.page-link-1 {
+  background-color:#01183A;
+  max-width: 550px;
+  width: 100%;
+  font-family: "Geneva", "Tahoma", "Verdana", "sans-serif";
+}
+
+.page-link{
+  margin:0 10px;
+  }
+
+.page-link:hover {
+  background-color: green !important;
+  margin:0 10px;
+  }
+
+
+.separator {
+ hight: 100%;
+ width: 1px;
+ background: black;
+}
+
+.file_uploader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 10px 0;
+    cursor: pointer;
+    height: 60px;
+    background: rgba(128, 128, 128, 0.54);
+    color: white;
+ }
+
+ .file_uploader:hover {
+    background: rgba(128, 128, 128, 1);
+ }
+
+ .svm_display {
+    width:700px !important;
+    height:700px !important;
+ }
